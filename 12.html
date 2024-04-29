@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>twelve</title>
+    <style>
+        div.sticky {
+            position: sticky;
+            top: 0;
+            margin-top: 140px;
+            padding: 5px;
+            background-color: #cae8ca;
+            border: 2px solid #4CAF50;
+            width: 690px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Position</h2>
+    <p style="position: static; border: 2px solid; width: 590px; padding: 3px;"><b>Static:</b> Esto indica que no se mueve nada, sigue en la posición predeterminada de la página.</p>
+    <p style="position: relative;left: 60px;top: 30px; border: 2px solid; width: 590px; padding: 3px;"><b>Relative:</b> Esto indica que las propiedades de top(arriba), right(derecha), bottom(abajo) y left(izquierda) pueden usarse en este elemento.</p>
+    <p style="position: fixed; left: 0; top: 200px; border: 2px solid; width: 590px; padding: 3px;"><b>Fixed:</b> Esto indica que la posición está fijada y que otros elementos no puede moverlo.</p>
+    <p style="position: absolute; top: 500px; border: 2px solid; width: 590px; padding: 3px;"><b>Absolute:</b> Esto indica que está posicionado en relación con el ancestro posicionado más cercano (en lugar de posicionado en relación con la ventana gráfica, como fijo)</p>
+    <div class="sticky">Sticky: Sirve para que el elemento se mueva y se mantenga visible cuando nos desplazamos por la página</div>
+</body>
+</html>
